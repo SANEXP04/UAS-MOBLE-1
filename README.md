@@ -1,179 +1,1335 @@
-# UAS PEMROGRAMAN MOBILE 1
-Nama &nbsp; &nbsp;: Ihsan Hadimulya<br>
-NIM&nbsp; &nbsp; &nbsp; : 312210047<br>
-Kelas&ensp; &nbsp; : TI.22.A.1<br>
-Dosen &nbsp; : Donny Maulana, S.Kom., M.M.S.I.<br><br>
+ # UAS PEMROGRAMAN MOBILE 1
 
-## PERINTAH TUGAS
-<p align="justify">Perintah tugas kali ini adalah mengumpulkan semua hasil yang sudah dibuat dari pertemuan pertama sampai akhir, hasil - hasil tersebut digabungkan dalam satu Aplikasi. Berikut ini semua code yang telah Saya buat.</p>
+Nama: Ihsan Hadimulya<br>
+Kelas : TI.22.A.1<br>
+NIM: 312210047<br>
+Matkul : Pemrograman Mobile 1<br>
+Dosen : Donny Maulana, S.Kom., M.M.S.I.
 
-## PENJELASAN APLIKASI
-Sebelumnya saya akan menjelaskan terlebih dahulu, ada apa saja didalam aplikasi ini. Berikut ini adalah daftarnya :
-- Activity Hello World , di activity ini adalah awal dari pengenalan terhadap software Android studio. Didalam activity ini hanya terdapat kalimat yang bertuliskan "Hello_World"
-- Activity Count ,  activity ini berisi program penghitungan bilangan fibonnaci yang sebelumnya telah diperintahkan untuk dibuat,
-- Activity Scroll Movie , activity ini berisi sinopsis film dokumenter ICE COLD, sinopsis yang banyak digunakan untuk pembelajaran fungsi scroll didalam aplikasi android ini.
-- Activity TwoActivity ,  twoactivity ini adalah sebuah program perpesanan atau chatting, yang menggunakan dua activity.
-- Program Open Alarm , nah program ini berbeda dari sebelumnya, disini tidak menggunakan layout activity.xml karena program ini hanya berfungsi sebagai pembuka dan pengatur alarm dalam sebuah smartphone android.
-- Program Open Map ,  sama seperti program alarm, program open map ini hanya berupa sebuah tombol yang berfungsi sebagai pembuka aplikasi google maps yang tersedia di dalam smartphone Android.
-- Activity Fragment , activity ini adalah sebuah activity yang terdiri dari beberapa fragment. Disini fragmentnya berperan sebagai penampil film dengan genre yang berbeda, seperti action, comedy, dan romance.
+<h3>Assalamualaikum Wr.Wb disini saya akan menampilkan hasil akhir project atau Project UAS ,serta menampilkan codingan yang berfungsi untuk menampilkan Fragment serta menammpilkan video yang didalamnya ada kode youtube di dalam Fragment java nya serta memasukan gambar dengan fungsi imagebutton berikut adalah hasilnya dan juga ada beberapa project sebelumnnya</h3>
 
-### Semua Source Code
-<p align="justify">Disini saya tidak akan menampilkan source codenya disini, karena akan terlalu banyak dan memakan tempat dan hanya membuat pusing melihatnya. Saya sudah push semua file dari project yang sudah saya buat dan jika menginginkan bisa mendownload beberapa file yang dibutuhkan saja atau clone repository ini sepenuhnya. Sebagai gantinya, Saya hanya akan menjelaskan sedikit dari apa saja yang sudah saya kerjakan.</p>
-
-- Source Code Splash Launcher
-  - SplashScreen.java [Lihat File](TugasUAS/app/src/main/java/com/example/tugassepuluh/SplashScreen.java)<br>
-    <p align="justify">Didalamnya berisi code java, untuk menjalankan fungsi splash launcher. Lebih jelasnya splash launcher ini adalah menampilkan gambar/logo/icon ketika kita pertama kali membuka aplikasi, atau sebelum menuju kehalaman utama.</p>
-  - backgroundlauncher.xml [Lihat File](TugasUAS/app/src/main/res/drawable/backgroundlauncher.xml)<br>
-    Ini adalah logo yang saya gunakan, Saya menggunakan logo dari channel youtube yang saya punya yaitu CREATIVEGG.
-  - Hasil Run<br>
-    Berikut ini adalah hasil run nya :<br>
-    
-https://github.com/DYRHEEEN/Tugas-UAS-Mobile-1/assets/151630441/123f5194-2c55-4b92-a469-30ee7635af6e
-
-<br><br>
-
-- Source Code Utama
-  - MainActivity.java [Lihat File](TugasUAS/app/src/main/java/com/example/tugassepuluh/MainActivity.java)<br>
-    <p align="justify">Di MainActivity ini berisi program java yang memiliki fungsi penghubung dari semua activity yang disebut intent dan fungsi tombol open alarm dan open map. Saya beri nama file ini Main karena disinilah fungsi paling awal dari halaman awal.</p>
-  - activity_main.xml [Lihat File](TugasUAS/app/src/main/res/layout/activity_main.xml)<br>
-    <p align="justify">Ini adalah layout dari halaman awal aplikasi ini. Layout ini terhubung dengan MainActivity.java tadi. Dilayout ini menampilkan semua tombol tombol dari berbagai activity dan program yang sudah dijelaskan diatas. Beginilah tampilan dari layoutnya :</p> <br>
-    
-    ![image](https://github.com/DYRHEEEN/Tugas-UAS-Mobile-1/assets/151630441/a581874e-e647-4b21-8f19-4f90125967a3)
-    > Iconnya disini sudah Saya usahakan agar sesuai dengan identitas dari activitynya.
-  - AndroidManifest.xml [Lihat File](TugasUAS/app/src/main/AndroidManifest.xml)<br>
-    <p align="justify">Di AndroidManifest.xml ini berfungsi untuk mengaktifkan permission yang dibutuhkan dibeberapa activity. Selain itu, AndroidManifest.xml ini juga harus dilakukan pengeditan jika kita menambah sebuah tombol atau activity baru yang berhubungan dengan intent, agar activity tersebut dapat dibuka nantinya.</p>
-  - string.xml [Lihat File](TugasUAS/app/src/main/res/values/strings.xml)<br>
-    String.xml ini adalah sebuah values, values ini berisi teks-teks dari tombol - isi - atau apapun itu yang berhubungan dengan teks.
-  - colors.xml [Lihat File](TugasUAS/app/src/main/res/values/colors.xml)<br>
-    <p align="justify">Sama seperti string, colors.xml ini juga merupakan sebuah values, tapi bedanya values ini berisi code-code warna yang sudah dibuat menjadi ID atau identitas yang bertujuan untuk memudahkan dalam pemanggilan warnanya di dalam coding.</p><br><br>
-
-- Source Code Activity Hello World
-  - HelloActivity.java [Lihat File](TugasUAS/app/src/main/java/com/example/tugassepuluh/HelloActivity.java)<br>
-    Disini saya tidak mengubah apapun isi dari javanya, dengan kata lain saya buat default sedari awal dibuat.
-  - activity_hello.xml [Lihat File](TugasUAS/app/src/main/res/layout/activity_hello.xml)<br>
-    <p align="justify">Seperti yang sudah diketahui ini merupakan layout yang terhubung dengan java nya. Saya hanya menambahkan textview untuk menampilkan android:text "hello_world" nya (text sudah ada di string.xml), selain itu saya juga mengubah warna text dan menambahkan background agar terlihat lebih menarik.</p>
-  - Hasil Run<br>
-    Berikut adalah hasil run nya :<br>
-
-https://github.com/DYRHEEEN/Tugas-UAS-Mobile-1/assets/151630441/054f30de-31d8-43ca-a7d5-74ec8e0cb802
-
-<br><br>
-
-- Source Code Activity Count
-  - CountActivity.java [Lihat File](TugasUAS/app/src/main/java/com/example/tugassepuluh/CountActivity.java)<br>
-    Tentunya disini berisi code java untuk menjalankan fungsi perhitungan dari rumus fibonnaci. Bilangan fibonnaci adalah bilangan yang rumusnya adalah menambah sebuah bilangan dengan        bilangan sebelumnya. Contohnya 1, 1, 2, 3, 5, 8...
-  - activity_count.xml [Lihat File](TugasUAS/app/src/main/res/layout/activity_count.xml)<br>
-    Ini adalah layout dari activity count, ada beberapa tombol disini seperti set limit, count, dan reset. Angka yang ditampilkan juga sudah menggunakan code warna, agar setiap angka         yang ditampilkan memiliki warna yang berbeda dengan angka sebelumnya.
-  - Hasil Run<br>
-    Berikut adalah hasil run nya :<br>
-
-https://github.com/DYRHEEEN/Tugas-UAS-Mobile-1/assets/151630441/c80d6b3f-3c2e-4177-804d-c91675139b65
-
-<br><br>
-
-- Source Code Activity Scroll Movie
-  - SianidaActivity.java [Lihat File](TugasUAS/app/src/main/java/com/example/tugassepuluh/SianidaActivity.java)<br>
-    Disini saya tidak mengubah apapun isi dari javanya, dengan kata lain saya buat default sedari awal dibuat.
-  - activity_sianida.xml [Lihat File](TugasUAS/app/src/main/res/layout/activity_sianida.xml)<br>
-    <p align="justify">Layout inilah yang mempengaruhi dan memberikan alasan kenapa di javanya tidak ada perubahan. Disini, digunakan sebuah scrollview yang bisa menjadikan text yang begitu panjang dan tidak muat dalam satu layar penuh, maka dengan ini kita bisa membaca semua isi kontennya hanya dengan cara scroll layar.</p>
-  - Hasil Run<br>
-    Berikut adalah hasil run nya :<br>
-
-https://github.com/DYRHEEEN/Tugas-UAS-Mobile-1/assets/151630441/70779eef-1c2f-4886-9f51-d310ac4d0125
-
-<br><br>
-
-- Source Code Activity TwoActivity
-  - TwoActActivity.java [Lihat File](TugasUAS/app/src/main/java/com/example/tugassepuluh/TwoactActivity.java) & TwoAct2Activity.java [Lihat File](TugasUAS/app/src/main/java/com/example/tugassepuluh/Twoact2Activity.java)<br>
-    <p align="justify">Kedua java berisi fungsi untuk menjalankan program perpesanan. Kedua java tersebut memiliki peran masing-masing, yang pertama untuk pengirim dan yang kedua untuk fungsi ketika pesan berhasil terkirim.</p>
-  - activity_twoact [Lihat File](TugasUAS/app/src/main/res/layout/activity_twoact.xml) & activity_twoact2 [Lihat File](TugasUAS/app/src/main/res/layout/activity_twoact2.xml)<br>
-    Kedua layout ini merupakan tampilannya, yang pertama berfungsi menampilkan saat mengirim pesan dan yang kedua menampilkan saat pesan berhasil terkirim.
-  - Hasil Run<br>
-    Berikut adalah hasil run nya :<br>
-
-https://github.com/DYRHEEEN/Tugas-UAS-Mobile-1/assets/151630441/4f7542d0-9643-4733-935f-1e9910692f78
-
-<br><br>
-
-- Source Code Program Alarm
-  - Karena program ini hanya merupakan tombol, maka hanya tinggal menambahkan baris code berikut :<br>
-    ```
-    # Tambahkan code ini didalam protected void OnCreate :
-          findViewById(R.id.btnSetAlarm).setOnClickListener(v -> {
-              // Panggil metode untuk mengatur alarm
-              setAlarm();
-          });
-      }
-
-    # Lalu code tambahkan fungsi intent untuk tombolnya :
-      private void setAlarm() {
-          Intent alarm = new Intent(AlarmClock.ACTION_SET_ALARM);
-          startActivity(alarm);
-      }
-    ```
-  - Tidak hanya itu, perlu ditambahkan juga beberapa baris code di AndroidManifest.xml, seperti ini:
-    ```
-    <uses-permission
-          android:name="com.android.alarm.permission.SET_ALARM" />
   
-    dan
-        <action android:name="android.intent.action.SET_ALARM" />
+## DAFTAR ISI <br>
+| No | Description | Link |
+|-----|------|-----|
+|1|Helloworld|[Click Here](#Helloword)|
+|2|Count|[Click Here](#fibonance)|
+|3|Sianida|[Click Here](#sianidaproject)|
+|4|twoactivity|[Click Here](#twoactivity)|
+|5|FragmentActivity|[Click Here](#fragment)|
+|6|Secondfragment|[Click Here](#secondfragment)|
+|7|Firstfragment|[Click Here](#firstfragment)|
+|8|Fragment3|[Click Here](#fragment3)|
+|8|Hasil Run AKhir|[Click Here](#hasilrun)|
 
-    ```
-  - Hasil Run<br>
-    Berikut adalah hasil run nya :<br>
 
-https://github.com/DYRHEEEN/Tugas-UAS-Mobile-1/assets/151630441/13a8223e-6984-4696-b750-30c62c9aef11
 
-<br><br>
 
-- Source Code Program Open Map
-  - Sama halnya seperti program alarm yang hanya menggunakan fungsi sebuah tombol, maka hanya code inilah yang diperlukan untuk dapat menjalankan dan membuka maps nya.
-    ```
-    # Tambahkan code ini didalam protected void OnCreate :
-    ImageButton btnshowMap = findViewById(R.id.btnshowMap);
-        btnshowMap.setOnClickListener(v -> {
-            Intent map = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:-6.324307,107.169273"));
-            map.setPackage("com.google.android.apps.maps");
-            startActivity(map);
-        });
-    ```
-  - Hasil Run<br>
-    Berikut adalah hasil run nya :<br>
+## Helloworld
 
-https://github.com/DYRHEEEN/Tugas-UAS-Mobile-1/assets/151630441/bac81232-d106-4890-ba58-2bab1215568f
 
-<br><br>
+> Berikut kodingan java Hello World
 
-- Source Code Activity Fragment <br>
-  <p align="justify">Berbeda dari activity sebelumnya, di activity ini memerlukan banyak java dan layout, karena activity ini terdiri dari beberapa halaman. Perintah tugas dari activity ini adalah, membuat sebuah program atau aplikasi menampilkan daftar film sesuai dengan genre nya. Dan genre yang diperintahkan untuk dibuat ada tiga buah, yakni Action, Comedy, dan Romance.</p>
+    package com.intent;
+    
+    import android.os.Bundle;
+    import androidx.appcompat.app.AppCompatActivity;
+    
+    public class HelloActivity extends AppCompatActivity {
+        @Override
+        protected void onCreate(Bundle savedInstanceState) {
+            super.onCreate(savedInstanceState);
+            setContentView(R.layout.activity_hello);
+        }
+    }
+
+<h2>disini hasil run nya https://github.com/lampubohlam/intent_mobile-V2.git </h2>
+                        
+
+## fibonance
+
+
+<h3> berikutnya kodingan project count/bilangan Fibonance JAVA dan XML nya nya</h3>
+
+><h3> Java nya</h3>
+            package com.example.tugas9;
+            
+            import android.annotation.SuppressLint;
+            import android.os.Bundle;
+            import android.view.View;
+            import android.widget.TextView;
+            import android.widget.Toast;
+            
+            import androidx.appcompat.app.AppCompatActivity;
+            
+            public class Count extends AppCompatActivity {
+                private int nCount = 0;
+            
+                private TextView nShowCount;
+            
+                @SuppressLint("MissingInflatedId")
+                @Override
+                protected void onCreate(Bundle savedInstanceState) {
+                    super.onCreate(savedInstanceState);
+                    setContentView(R.layout.activity_count);
+                    nShowCount = findViewById(R.id.show_count);
+                }
+            
+                public void showToast(View view){
+                    Toast toast = Toast.makeText(this, "Menghitung Bilangan",
+                            Toast.LENGTH_SHORT);
+                    toast.show();
+                }
+            
+                @SuppressLint("SetTextI18n")
+                public void countUp(View view){
+                    nCount++;
+                    if (nShowCount != null)
+                        nShowCount.setText(Integer.toString(nCount));
+                }
+            }
+
+
+  > <h3>XML Fibonance/Count</h3>
+
   
-  - FragmentActivity.java [Lihat File](TugasUAS/app/src/main/java/com/example/tugassepuluh/FragmentActivity.java)<br>
-    Java yang ini berfungsi sebagai fungsi dari halaman utamanya. Didalamnya terdapat code untuk switch atau berpindah antar fragment dari action/comedy/romance. Nah agar code fragment tersebut dapat berjalan, perlu ditambahkan sebuah depedencies baru di build.gradlenya, berikut dependenciesnya :<br>
-    
-    ```
-    implementation("androidx.fragment:fragment:$fragmentVersion")
-    ```
-    > Perlu diingat jika menambahkan dependencies baru, perlu dilakukan sync terlebih dahulu.
+                 <?xml version="1.0" encoding="utf-8"?>
+          <androidx.constraintlayout.widget.ConstraintLayout
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context=".Count">
+          
+              <ImageView
+                  android:id="@+id/background"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:background="@drawable/bck_count"
+                  android:adjustViewBounds="true"
+                  android:scaleType="centerCrop" />
+          
+              <Button
+                  android:id="@+id/button_toast"
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_marginEnd="8dp"
+                  android:layout_marginStart="8dp"
+                  android:layout_marginTop="8dp"
+                  android:background="@color/ColorPrimary"
+                  android:onClick="showToast"
+                  android:text="@string/button_label_toast"
+                  android:textColor="@android:color/white"
+                  app:layout_constraintEnd_toEndOf="parent"
+                  app:layout_constraintStart_toStartOf="parent"
+                  app:layout_constraintTop_toTopOf="parent"
+                  tools:ignore="UsingOnClickInXml"/>
+          
+              <Button
+                  android:id="@+id/button_count"
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_marginEnd="8dp"
+                  android:layout_marginStart="8dp"
+                  android:layout_marginBottom="8dp"
+                  android:background="@color/ColorPrimary"
+                  android:onClick="countUp"
+                  android:text="@string/button_label_count"
+                  android:textColor="@android:color/white"
+                  app:layout_constraintEnd_toEndOf="parent"
+                  app:layout_constraintStart_toStartOf="parent"
+                  app:layout_constraintBottom_toBottomOf="parent"
+                  tools:ignore="UsingOnClickInXml" />
+          
+              <TextView
+                  android:id="@+id/show_count"
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_marginStart="8dp"
+                  android:layout_marginEnd="8dp"
+                  android:text="@string/count_initial_value"
+                  android:textAlignment="center"
+                  android:textColor="@color/ColorPrimary"
+                  android:textSize="160sp"
+                  android:textStyle="bold"
+                  app:layout_constraintBottom_toTopOf="@+id/button_count"
+                  app:layout_constraintEnd_toEndOf="parent"
+                  app:layout_constraintStart_toStartOf="parent"
+                  app:layout_constraintTop_toBottomOf="@+id/button_toast"
+                  tools:ignore="RtlCompat" />
+          
+          </androidx.constraintlayout.widget.ConstraintLayout>
+> <h3> Hasil Run di link https://github.com/lampubohlam/Bilangan-fibonance_UTS.git </h3>
 
-  - activity_fragment.xml [Lihat File](TugasUAS/app/src/main/res/layout/activity_fragment.xml)<br>
-    Inilah layout yang terhubung dengan FragmentActivity.java, layout ini adalah tampilan basic atau tampilan utama yang masih kosong, didalamnya terdapat 3 tombol untuk berpindah antar fragment nya. Berikut ini tampilannya :<br>
 
-    ![image](https://github.com/DYRHEEEN/Tugas-UAS-Mobile-1/assets/151630441/1eac1dde-3762-4064-a70e-85c2b5b80574) <br>
+## sianidaproject
 
-  - FirstFragment.java [Lihat File](TugasUAS/app/src/main/java/com/example/tugassepuluh/FirstFragment.java) , SecondFragment.java [Lihat File](TugasUAS/app/src/main/java/com/example/tugassepuluh/SecondFragment.java) , ThirdFragment.java [Lihat File](TugasUAS/app/src/main/java/com/example/tugassepuluh/ThirdFragment.java) <br>
-    <p align="justify">Nah ketiga java ini didalamnya terdapat fungsi untuk menampilkan list film yang ada, dan fungsi memutar trailer video ketika poster atau gambar filmnya ditekan. Video tersebut berasal dari link youtube yang saya tambahkan sesuai dengan film apa yang ada di masing masing fragment nya. Untuk menggunakan fungsi ini perlu ditambahkan depedencies di build.gradle nya. Saya menggunakan library yang bernama youtube player dari pierfrancescosoffritti, berikut dependenciesnya :</p><br>
-    
-    ```
+> berikut adalah codingan Java activity nya
+
+            package com.example.tugas9;
+            import android.os.Bundle;
+            
+            import androidx.appcompat.app.AppCompatActivity;
+            
+            public class SianidaActivity extends AppCompatActivity {
+                @Override
+                protected void onCreate(Bundle savedInstanceState){
+                    super.onCreate(savedInstanceState);
+                    setContentView(R.layout.sianida);
+                }
+            }
+
+
+> berikut codingan XML nya
+          
+          <?xml version="1.0" encoding="utf-8"?>
+          <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              xmlns:tools="http://schemas.android.com/tools"
+              tools:context=".SianidaActivity">
+              <ImageView
+                  android:id="@+id/background"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:adjustViewBounds="true"
+                  android:background="@drawable/kopi"
+                  android:scaleType="centerInside"
+                  tools:layout_editor_absoluteX="0dp"
+                  tools:layout_editor_absoluteY="-53dp" />
+          
+          
+          
+              <TextView
+                  android:id="@+id/article_heading"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:padding="@dimen/padding_regular"
+                  android:text="@string/article_title"
+                  android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+                  android:textColor="@android:color/white"
+                  android:textStyle="bold" />
+          
+              <ScrollView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@id/article_heading">
+          
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical">
+          
+                      <TextView
+                          android:id="@+id/article_subheading"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:padding="@dimen/padding_regular"
+                          android:text="@string/article_subtitle"
+                          android:textAlignment="center"
+                          android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                          android:textColor="#BC7156" />
+          
+                      <TextView
+                          android:id="@+id/article"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:autoLink="web"
+                          android:lineSpacingExtra="@dimen/line_spacing"
+                          android:padding="@dimen/padding_regular"
+                          android:text="@string/article_teks"
+                          tools:ignore="VisualLintLongText" />
+                  </LinearLayout>
+              </ScrollView>
+          </RelativeLayout>
+ > hasil run ada di link berikut : https://github.com/lampubohlam/intent_mobile-V2.git
+
+## twoactivity
+dan selanutunya adalah twoactivity berikut adalah codingannya
+            > java
+            package com.example.tugas9;
+            
+            import android.content.Intent;
+            import android.os.Bundle;
+            import android.view.View;
+            import android.widget.EditText;
+            import android.widget.TextView;
+            
+            import androidx.appcompat.app.AppCompatActivity;
+            
+            public class twoactivity extends AppCompatActivity {
+            
+                public static final String EXTRA_REPLY ="com.example.android.twoactivity.extra.REPLY";
+            
+                private EditText mReply;
+            
+                @Override
+                protected void onCreate(Bundle savedInstanceState){
+                    super.onCreate(savedInstanceState);
+                    setContentView(R.layout.activity_pesan2);
+            
+                    mReply = findViewById(R.id.editText_second);
+            
+                    Intent intent = getIntent();
+                    String message = intent.getStringExtra(twoactivity.EXTRA_REPLY);
+            
+                    TextView textView = findViewById(R.id.text_message);
+                    textView.setText(message);
+                }
+                public void returnReply(View view){
+                    String reply = mReply.getText().toString();
+                    Intent replyIntent = new Intent();
+                    setResult(RESULT_OK, replyIntent);
+                    finish();
+                }
+            }
+> Twoactivity 2 java
+
+            package com.example.tugas9;
+            
+            import android.content.Intent;
+            import android.os.Bundle;
+            import android.view.View;
+            import android.widget.EditText;
+            import android.widget.TextView;
+            
+            import androidx.appcompat.app.AppCompatActivity;
+            
+            public class twoactivity2 extends AppCompatActivity {
+            
+                public static final String EXTRA_REPLY ="com.example.android.Twoact2Activity.extra.REPLY";
+            
+                private EditText mReply;
+            
+                @Override
+                protected void onCreate(Bundle savedInstanceState){
+                    super.onCreate(savedInstanceState);
+                    setContentView(R.layout.activity_pesan2);
+            
+                    mReply = findViewById(R.id.editText_second);
+            
+                    Intent intent = getIntent();
+                    String message = intent.getStringExtra(twoactivity.EXTRA_REPLY);
+            
+                    TextView textView = findViewById(R.id.text_message);
+                    textView.setText(message);
+                }
+                public void returnReply(View view){
+                    String reply = mReply.getText().toString();
+                    Intent replyIntent = new Intent();
+                    setResult(RESULT_OK, replyIntent);
+                    finish();
+                }
+            }
+> twoactivity XML
+
+                 <?xml version="1.0" encoding="utf-8"?>
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    tools:context=".twoactivity">
+                
+                    <ImageView
+                        android:id="@+id/background"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/bck_pesan" />
+                
+                    <TextView
+                        android:id="@+id/text_header_reply"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="16dp"
+                        android:text="@string/text_header_reply"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:textStyle="bold"
+                        android:visibility="invisible"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"/>
+                
+                    <TextView
+                        android:id="@+id/text_message_reply"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:visibility="invisible"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/text_header_reply" />
+                
+                    <Button
+                        android:id="@+id/button_main"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:layout_marginRight="16dp"
+                        android:text="@string/button_label_toast"
+                        android:onClick="LaunchSecondActivity"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        tools:ignore="UsingOnClickInXml"/>
+                
+                    <EditText
+                        android:id="@+id/editText_main"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginBottom="16dp"
+                        android:ems="10"
+                        android:hint="@string/editText_second"
+                        android:inputType="textLongMessage"
+                        android:minHeight="48dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/button_main"
+                        app:layout_constraintStart_toStartOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+> Twoactivity XML 2
+
+              <?xml version="1.0" encoding="utf-8"?>
+              <androidx.constraintlayout.widget.ConstraintLayout
+                  xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  xmlns:tools="http://schemas.android.com/tools"
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  tools:context=".twoactivity2">
+              
+                  <ImageView
+                      android:id="@+id/background"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:adjustViewBounds="true"
+                      android:scaleType="centerCrop"
+                      android:src="@drawable/bck_pesan"
+                      tools:layout_editor_absoluteX="80dp"
+                      tools:layout_editor_absoluteY="0dp" />
+              
+                  <TextView
+                      android:id="@+id/text_header"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginStart="8dp"
+                      android:layout_marginLeft="8dp"
+                      android:layout_marginTop="16dp"
+                      android:text="hohohohoho"
+                      android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                      android:textStyle="bold"
+                      app:layout_constraintStart_toStartOf="parent"
+                      app:layout_constraintTop_toTopOf="parent" />
+              
+                  <TextView
+                      android:id="@+id/text_message"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginStart="8dp"
+                      android:layout_marginLeft="8dp"
+                      android:layout_marginTop="8dp"
+                      app:layout_constraintStart_toStartOf="parent"
+                      app:layout_constraintTop_toBottomOf="@+id/text_header" />
+              
+                  <Button
+                      android:id="@+id/button_second"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginBottom="16dp"
+                      android:layout_marginRight="16dp"
+                      android:text="@string/button_label_toast"
+                      android:onClick="returnReply"
+                      app:layout_constraintBottom_toBottomOf="parent"
+                      app:layout_constraintRight_toRightOf="parent"
+                      tools:ignore="UsingOnClickInXml" />
+              
+                  <EditText
+                      android:id="@+id/editText_second"
+                      android:layout_width="0dp"
+                      android:layout_height="wrap_content"
+                      android:layout_marginStart="8dp"
+                      android:layout_marginEnd="8dp"
+                      android:layout_marginBottom="16dp"
+                      android:ems="10"
+                      android:hint="@string/editText_second"
+                      android:inputType="textLongMessage"
+                      android:minHeight="48dp"
+                      app:layout_constraintBottom_toBottomOf="parent"
+                      app:layout_constraintEnd_toStartOf="@+id/button_second"
+                      app:layout_constraintStart_toStartOf="parent" />
+              </androidx.constraintlayout.widget.ConstraintLayout>
+
+> <h3>Hasil run Ada Di link berikut https://github.com/lampubohlam/intent_mobile-V2.git </h3>
+
+
+
+
+
+
+<h2> Masuk ke Fragment</h2>
+Langkah pertama tambahkan di pengaturan Gradle coding berikut
+
+      implementation("androidx.fragment:fragment:$fragment_version")
     implementation("com.pierfrancescosoffritti.androidyoutubeplayer:core:11.0.1")
-    ```
-    > Perlu diingat jika menambahkan dependencies baru, perlu dilakukan sync terlebih dahulu.
 
-  - fragment_first.xml [Lihat File](TugasUAS/app/src/main/res/layout/fragment_first.xml) , fragment_second.xml [Lihat File](TugasUAS/app/src/main/res/layout/fragment_second.xml) , fragment_third.xml [Lihat File](TugasUAS/app/src/main/res/layout/fragment_third.xml) <br>
-    Ketiga xml ini merupakan layout atau tampilan dari masing-masing fragment, didalamnya menampilkan daftar film sesuai dengan genrenya. Layout ini terhubung dengan ketiga java diatas.
-  - Hasil Run <br>
-    Berikut adalah hasil run nya : <br>
+<h3>Lalu lanjut ke tahap selanjutnya membuat Fragment Atau tampilan depan nya silahkan ikuti langkah semua dibawah dengan membuat JAVA dan FIle XML nya dan jangn lupa masukan src Image nya </h3>
 
-https://github.com/DYRHEEEN/Tugas-UAS-Mobile-1/assets/151630441/2698f3d6-dee6-4c02-8810-b073784f6668
+## fragment
 
-<br><br>
+> <h3> Java nya</h3>
+
+                  package com.example.tugas9;
+                  import android.os.Bundle;
+                  
+                  import androidx.annotation.Nullable;
+                  import androidx.appcompat.app.AppCompatActivity;
+                  import com.google.android.material.tabs.TabLayout;
+                  
+                  public class FragmentActivity extends AppCompatActivity {
+                  
+                      @Override
+                      protected void onCreate(@Nullable Bundle savedInstanceState) {
+                          super.onCreate(savedInstanceState);
+                          setContentView(R.layout.activity_fragment);
+                  
+                          getSupportFragmentManager().beginTransaction()
+                                  .replace(R.id.framelayout, new FirstFragment())
+                                  .commit();
+                  
+                          TabLayout tabLayout = findViewById(R.id.tablayout);
+                  
+                          tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
+                              @Override
+                              public void onTabSelected(TabLayout.Tab tab) {
+                                  switch (tab.getPosition()) {
+                                      case 0:
+                                          getSupportFragmentManager().beginTransaction()
+                                                  .replace(R.id.framelayout, new FirstFragment())
+                                                  .commit();
+                                          break;
+                                      case 1:
+                                          int commit = getSupportFragmentManager().beginTransaction()
+                                                  .replace(R.id.framelayout, new SecondFragment())
+                                                  .commit();
+                                          break;
+                                      case 2:
+                                          getSupportFragmentManager().beginTransaction()
+                                                  .replace(R.id.framelayout, new ThirdFragment())
+                                                  .commit();
+                                          break;
+                                  }
+                              }
+                  
+                              @Override
+                              public void onTabUnselected(TabLayout.Tab tab) {
+                              }
+                  
+                              @Override
+                              public void onTabReselected(TabLayout.Tab tab) {
+                              }
+                          });
+                      }
+                  }
+
+> XML nya atau Activity fragment
+
+                  package com.example.tugas9;
+                  import android.os.Bundle;
+                  
+                  import androidx.annotation.Nullable;
+                  import androidx.appcompat.app.AppCompatActivity;
+                  import com.google.android.material.tabs.TabLayout;
+                  
+                  public class FragmentActivity extends AppCompatActivity {
+                  
+                      @Override
+                      protected void onCreate(@Nullable Bundle savedInstanceState) {
+                          super.onCreate(savedInstanceState);
+                          setContentView(R.layout.activity_fragment);
+                  
+                          getSupportFragmentManager().beginTransaction()
+                                  .replace(R.id.framelayout, new FirstFragment())
+                                  .commit();
+                  
+                          TabLayout tabLayout = findViewById(R.id.tablayout);
+                  
+                          tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
+                              @Override
+                              public void onTabSelected(TabLayout.Tab tab) {
+                                  switch (tab.getPosition()) {
+                                      case 0:
+                                          getSupportFragmentManager().beginTransaction()
+                                                  .replace(R.id.framelayout, new FirstFragment())
+                                                  .commit();
+                                          break;
+                                      case 1:
+                                          int commit = getSupportFragmentManager().beginTransaction()
+                                                  .replace(R.id.framelayout, new SecondFragment())
+                                                  .commit();
+                                          break;
+                                      case 2:
+                                          getSupportFragmentManager().beginTransaction()
+                                                  .replace(R.id.framelayout, new ThirdFragment())
+                                                  .commit();
+                                          break;
+                                  }
+                              }
+                  
+                              @Override
+                              public void onTabUnselected(TabLayout.Tab tab) {
+                              }
+                  
+                              @Override
+                              public void onTabReselected(TabLayout.Tab tab) {
+                              }
+                          });
+                      }
+                  }
+                  
+## secondfragment
+
+carilah video dari youtube dan salin pada link dibelakanngnya contoh dalam gambar ini
+ ![image](https://github.com/lampubohlam/UAS_MOBILE_SM3/assets/116137169/5629d0ed-38ab-4d4b-8cb3-445ce2cb5fed)
+
+Salin lah link yang ditandai garis biru dibelakang =
+> Javanya 
+                      package com.example.tugas9;
+                      
+                      
+                      
+                      import android.annotation.SuppressLint;
+                      import android.os.Bundle;
+                      import android.view.KeyEvent;
+                      import android.view.LayoutInflater;
+                      import android.view.View;
+                      import android.view.ViewGroup;
+                      import android.widget.ImageButton;
+                      
+                      import androidx.annotation.NonNull;
+                      import androidx.fragment.app.Fragment;
+                      
+                      import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.YouTubePlayer;
+                      import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView;
+                      
+                      public class SecondFragment extends Fragment {
+                      
+                          private static final String YOUTUBE_VIDEO_ID_1 = "itnqEauWQZM";
+                          private static final String YOUTUBE_VIDEO_ID_2 = "odM92ap8_c0";
+                          private static final String YOUTUBE_VIDEO_ID_3 = "TcMBFSGVi1c";
+                          private YouTubePlayerView youTubePlayerView;
+                          private YouTubePlayer youTubePlayer;
+                          private boolean isVideoOpen = false;
+                      
+                          public SecondFragment() {
+                              // Required empty public constructor
+                          }
+                      
+                          @SuppressLint("MissingInflatedId")
+                          @Override
+                          public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
+                                                   Bundle savedInstanceState) {
+                              // Inflate the layout for this fragment
+                              View view = inflater.inflate(R.layout.fragment_second, container, false);
+                      
+                              // Initialize YouTube Player View
+                              youTubePlayerView = view.findViewById(R.id.youtube_player_view);
+                              getLifecycle().addObserver(youTubePlayerView);
+                      
+                              // Set up ImageButton click listeners
+                              ImageButton imageButton1 = view.findViewById(R.id.image1);
+                              imageButton1.setOnClickListener(v -> loadVideo(YOUTUBE_VIDEO_ID_1));
+                      
+                              ImageButton imageButton2 = view.findViewById(R.id.image2);
+                              imageButton2.setOnClickListener(v -> loadVideo(YOUTUBE_VIDEO_ID_2));
+                      
+                              ImageButton imageButton3 = view.findViewById(R.id.image3);
+                              imageButton3.setOnClickListener(v -> loadVideo(YOUTUBE_VIDEO_ID_3));
+                      
+                              // Set up KeyEvent callback for handling back button
+                              view.setFocusableInTouchMode(true);
+                              view.requestFocus();
+                              view.setOnKeyListener((v, keyCode, event) -> {
+                                  if (keyCode == KeyEvent.KEYCODE_BACK && event.getAction() == KeyEvent.ACTION_UP) {
+                                      // Check if YouTubePlayerView is visible and handle back button
+                                      if (isVideoOpen) {
+                                          closeVideo();
+                                          return true;  // consume the back button event
+                                      }
+                                  }
+                                  return false;  // do not consume the back button event
+                              });
+                      
+                              return view;
+                          }
+                      
+                          private void loadVideo(String videoId) {
+                              // Show the YouTubePlayerView
+                              youTubePlayerView.setVisibility(View.VISIBLE);
+                      
+                              // Load and play the YouTube video
+                              youTubePlayerView.getYouTubePlayerWhenReady(youTubePlayer -> {
+                                  if (youTubePlayer != null) {
+                                      youTubePlayer.loadVideo(videoId, 0);
+                                      this.youTubePlayer = youTubePlayer;
+                                      isVideoOpen = true;
+                                  }
+                              });
+                          }
+                      
+                          private void closeVideo() {
+                              // Hide the YouTubePlayerView
+                              youTubePlayerView.setVisibility(View.GONE);
+                      
+                              // Release resources associated with the YouTubePlayerView
+                              if (youTubePlayer != null) {
+                                  youTubePlayer.pause();
+                                  youTubePlayer.cueVideo("", 0);
+                                  isVideoOpen = false;
+                              }
+                          }
+                      }
+
+>XML nya Atau activity Second Fragment
+
+                      package com.example.tugas9;
+                      
+                      
+                      
+                      import android.annotation.SuppressLint;
+                      import android.os.Bundle;
+                      import android.view.KeyEvent;
+                      import android.view.LayoutInflater;
+                      import android.view.View;
+                      import android.view.ViewGroup;
+                      import android.widget.ImageButton;
+                      
+                      import androidx.annotation.NonNull;
+                      import androidx.fragment.app.Fragment;
+                      
+                      import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.YouTubePlayer;
+                      import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView;
+                      
+                      public class SecondFragment extends Fragment {
+                      
+                          private static final String YOUTUBE_VIDEO_ID_1 = "itnqEauWQZM";
+                          private static final String YOUTUBE_VIDEO_ID_2 = "odM92ap8_c0";
+                          private static final String YOUTUBE_VIDEO_ID_3 = "TcMBFSGVi1c";
+                          private YouTubePlayerView youTubePlayerView;
+                          private YouTubePlayer youTubePlayer;
+                          private boolean isVideoOpen = false;
+                      
+                          public SecondFragment() {
+                              // Required empty public constructor
+                          }
+                      
+                          @SuppressLint("MissingInflatedId")
+                          @Override
+                          public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
+                                                   Bundle savedInstanceState) {
+                              // Inflate the layout for this fragment
+                              View view = inflater.inflate(R.layout.fragment_second, container, false);
+                      
+                              // Initialize YouTube Player View
+                              youTubePlayerView = view.findViewById(R.id.youtube_player_view);
+                              getLifecycle().addObserver(youTubePlayerView);
+                      
+                              // Set up ImageButton click listeners
+                              ImageButton imageButton1 = view.findViewById(R.id.image1);
+                              imageButton1.setOnClickListener(v -> loadVideo(YOUTUBE_VIDEO_ID_1));
+                      
+                              ImageButton imageButton2 = view.findViewById(R.id.image2);
+                              imageButton2.setOnClickListener(v -> loadVideo(YOUTUBE_VIDEO_ID_2));
+                      
+                              ImageButton imageButton3 = view.findViewById(R.id.image3);
+                              imageButton3.setOnClickListener(v -> loadVideo(YOUTUBE_VIDEO_ID_3));
+                      
+                              // Set up KeyEvent callback for handling back button
+                              view.setFocusableInTouchMode(true);
+                              view.requestFocus();
+                              view.setOnKeyListener((v, keyCode, event) -> {
+                                  if (keyCode == KeyEvent.KEYCODE_BACK && event.getAction() == KeyEvent.ACTION_UP) {
+                                      // Check if YouTubePlayerView is visible and handle back button
+                                      if (isVideoOpen) {
+                                          closeVideo();
+                                          return true;  // consume the back button event
+                                      }
+                                  }
+                                  return false;  // do not consume the back button event
+                              });
+                      
+                              return view;
+                          }
+                      
+                          private void loadVideo(String videoId) {
+                              // Show the YouTubePlayerView
+                              youTubePlayerView.setVisibility(View.VISIBLE);
+                      
+                              // Load and play the YouTube video
+                              youTubePlayerView.getYouTubePlayerWhenReady(youTubePlayer -> {
+                                  if (youTubePlayer != null) {
+                                      youTubePlayer.loadVideo(videoId, 0);
+                                      this.youTubePlayer = youTubePlayer;
+                                      isVideoOpen = true;
+                                  }
+                              });
+                          }
+                      
+                          private void closeVideo() {
+                              // Hide the YouTubePlayerView
+                              youTubePlayerView.setVisibility(View.GONE);
+                      
+                              // Release resources associated with the YouTubePlayerView
+                              if (youTubePlayer != null) {
+                                  youTubePlayer.pause();
+                                  youTubePlayer.cueVideo("", 0);
+                                  isVideoOpen = false;
+                              }
+                          }
+                      }
+
+## firstfragment
+> java
+                   package com.example.tugas9;
+                  
+                  import android.os.Bundle;
+                  import android.view.KeyEvent;
+                  import android.view.LayoutInflater;
+                  import android.view.View;
+                  import android.view.ViewGroup;
+                  import android.widget.ImageButton;
+                  
+                  import androidx.fragment.app.Fragment;
+                  
+                  import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.YouTubePlayer;
+                  import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView;
+                  
+                  public class FirstFragment extends Fragment {
+                  
+                      private static final String YOUTUBE_VIDEO_ID_1 = "0_UaJDoEjdA";
+                      private static final String YOUTUBE_VIDEO_ID_2 = "e8nij7jRB6M";
+                      private static final String YOUTUBE_VIDEO_ID_3 = "FtE9-o6dBEI";
+                  
+                      private YouTubePlayerView youTubePlayerView;
+                      private YouTubePlayer youTubePlayer;
+                      private boolean isVideoOpen = false;
+                  
+                      public FirstFragment() {
+                          // Required empty public constructor
+                      }
+                  
+                      @Override
+                      public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                                               Bundle savedInstanceState) {
+                          // Inflate the layout for this fragment
+                          View view = inflater.inflate(R.layout.fragment_first, container, false);
+                  
+                          // Initialize YouTube Player View
+                          youTubePlayerView = view.findViewById(R.id.youtube_player_view);
+                          getLifecycle().addObserver(youTubePlayerView);
+                  
+                          // Set up ImageButton click listeners
+                          ImageButton imageButton1 = view.findViewById(R.id.image1);
+                          imageButton1.setOnClickListener(v -> loadVideo(YOUTUBE_VIDEO_ID_1));
+                  
+                          ImageButton imageButton2 = view.findViewById(R.id.image2);
+                          imageButton2.setOnClickListener(v -> loadVideo(YOUTUBE_VIDEO_ID_2));
+                  
+                          ImageButton imageButton3 = view.findViewById(R.id.image3);
+                          imageButton3.setOnClickListener(v -> loadVideo(YOUTUBE_VIDEO_ID_3));
+                  
+                  
+                          // Set up KeyEvent callback for handling back button
+                          view.setFocusableInTouchMode(true);
+                          view.requestFocus();
+                          view.setOnKeyListener((v, keyCode, event) -> {
+                              if (keyCode == KeyEvent.KEYCODE_BACK && event.getAction() == KeyEvent.ACTION_UP) {
+                                  // Check if YouTubePlayerView is visible and handle back button
+                                  if (isVideoOpen) {
+                                      closeVideo();
+                                      return true;  // consume the back button event
+                                  }
+                              }
+                              return false;  // do not consume the back button event
+                          });
+                  
+                          return view;
+                      }
+                  
+                      private void loadVideo(String videoId) {
+                          // Show the YouTubePlayerView
+                          youTubePlayerView.setVisibility(View.VISIBLE);
+                  
+                          // Load and play the YouTube video
+                          youTubePlayerView.getYouTubePlayerWhenReady(youTubePlayer -> {
+                              if (youTubePlayer != null) {
+                                  youTubePlayer.loadVideo(videoId, 0);
+                                  this.youTubePlayer = youTubePlayer;
+                                  isVideoOpen = true;
+                              }
+                          });
+                      }
+                  
+                      private void closeVideo() {
+                          // Hide the YouTubePlayerView
+                          youTubePlayerView.setVisibility(View.GONE);
+                  
+                          // Release resources associated with the YouTubePlayerView
+                          if (youTubePlayer != null) {
+                              youTubePlayer.pause();
+                              youTubePlayer.cueVideo("", 0);
+                              isVideoOpen = false;
+                          }
+                      }
+                  }
+> XML nya
+              <?xml version="1.0" encoding="utf-8"?>
+              <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:tools="http://schemas.android.com/tools"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:background="@color/aqua"
+                  tools:context=".FirstFragment">
+              
+                  <ImageButton
+                      android:id="@+id/image1"
+                      android:layout_width="150dp"
+                      android:layout_height="145dp"
+                      android:layout_marginTop="8dp"
+                      android:scaleType="centerInside"
+                      android:src="@drawable/action1"
+                      android:background="@color/backgroundfilm"
+                      android:onClick="loadVideo1"
+                      tools:ignore="SpeakableTextPresentCheck" />
+              
+                  <TextView
+                      android:id="@+id/title1"
+                      android:layout_width="180dp"
+                      android:layout_height="41dp"
+                      android:layout_toRightOf="@id/image1"
+                      android:layout_marginStart="16dp"
+                      android:layout_marginTop="8dp"
+                      android:textSize="18sp"
+                      android:textStyle="bold"
+                      android:text="@string/action1"
+                      android:textColor="@color/black"/>
+              
+                  <TextView
+                      android:id="@+id/rating1"
+                      android:layout_toRightOf="@id/image1"
+                      android:layout_width="180dp"
+                      android:layout_height="wrap_content"
+                      android:layout_marginStart="16dp"
+                      android:layout_marginTop="4dp"
+                      android:layout_below="@id/title1"
+                      android:textColor="@color/grey"
+                      android:text="@string/ratinga1"
+                      android:textSize="14sp"
+                      android:textStyle="bold"/>
+              
+                  <TextView
+                      android:id="@+id/sinopsis1"
+                      android:layout_width="match_parent"
+                      android:layout_height="80dp"
+                      android:layout_below="@id/rating1"
+                      android:layout_marginStart="16dp"
+                      android:layout_marginLeft="14dp"
+                      android:layout_marginTop="5dp"
+                      android:layout_toRightOf="@id/image1"
+                      android:maxLines="4"
+                      android:text="@string/sinopsisa1"
+                      android:textColor="@color/black" />
+              
+                  <ImageButton
+                      android:id="@+id/image2"
+                      android:layout_width="150dp"
+                      android:layout_height="145dp"
+                      android:layout_marginTop="15dp"
+                      android:layout_below="@+id/image1"
+                      android:scaleType="centerInside"
+                      android:onClick="loadVideo2"
+                      android:background="@color/backgroundfilm"
+                      android:src="@drawable/action2"
+                      tools:ignore="SpeakableTextPresentCheck" />
+              
+                  <TextView
+                      android:id="@+id/title2"
+                      android:layout_width="180dp"
+                      android:layout_height="41dp"
+                      android:layout_toRightOf="@id/image2"
+                      android:layout_marginStart="16dp"
+                      android:layout_marginTop="12dp"
+                      android:layout_below="@id/sinopsis1"
+                      android:textSize="18sp"
+                      android:textStyle="bold"
+                      android:text="@string/action2"
+                      android:textColor="@color/black"/>
+              
+                  <TextView
+                      android:id="@+id/rating2"
+                      android:layout_toRightOf="@id/image2"
+                      android:layout_width="180dp"
+                      android:layout_height="wrap_content"
+                      android:layout_marginStart="16dp"
+                      android:layout_marginTop="4dp"
+                      android:layout_below="@id/title2"
+                      android:textColor="@color/grey"
+                      android:text="@string/ratinga2"
+                      android:textSize="14sp"
+                      android:textStyle="bold"/>
+              
+                  <TextView
+                      android:id="@+id/sinopsis2"
+                      android:layout_width="match_parent"
+                      android:layout_height="80dp"
+                      android:layout_below="@id/rating2"
+                      android:layout_marginStart="16dp"
+                      android:layout_marginLeft="14dp"
+                      android:layout_marginTop="5dp"
+                      android:layout_toRightOf="@id/image2"
+                      android:maxLines="4"
+                      android:text="@string/sinopsisa2"
+                      android:textColor="@color/black" />
+              
+                  <ImageButton
+                      android:id="@+id/image3"
+                      android:layout_width="150dp"
+                      android:layout_height="145dp"
+                      android:layout_marginTop="15dp"
+                      android:layout_below="@+id/image2"
+                      android:scaleType="centerInside"
+                      android:background="@color/backgroundfilm"
+                      android:onClick="loadVideo3"
+                      android:src="@drawable/action3"
+                      tools:ignore="SpeakableTextPresentCheck" />
+              
+                  <TextView
+                      android:id="@+id/title3"
+                      android:layout_width="180dp"
+                      android:layout_height="41dp"
+                      android:layout_toRightOf="@id/image3"
+                      android:layout_marginStart="16dp"
+                      android:layout_marginTop="12dp"
+                      android:layout_below="@id/sinopsis2"
+                      android:textSize="18sp"
+                      android:textStyle="bold"
+                      android:text="@string/action3"
+                      android:textColor="@color/black"/>
+              
+                  <TextView
+                      android:id="@+id/rating3"
+                      android:layout_toRightOf="@id/image3"
+                      android:layout_width="180dp"
+                      android:layout_height="wrap_content"
+                      android:layout_marginStart="16dp"
+                      android:layout_marginTop="4dp"
+                      android:layout_below="@id/title3"
+                      android:textColor="@color/grey"
+                      android:text="@string/ratinga3"
+                      android:textSize="14sp"
+                      android:textStyle="bold"/>
+              
+                  <TextView
+                      android:id="@+id/sinopsis3"
+                      android:layout_width="match_parent"
+                      android:layout_height="80dp"
+                      android:layout_below="@id/rating3"
+                      android:layout_marginStart="16dp"
+                      android:layout_marginLeft="14dp"
+                      android:layout_marginTop="5dp"
+                      android:layout_toRightOf="@id/image3"
+                      android:maxLines="4"
+                      android:text="@string/sinopsisa3"
+                      android:textColor="@color/black" />
+              
+              
+                  <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                      android:id="@+id/youtube_player_view"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_centerInParent="true"
+                      android:visibility="gone" />
+              
+              </RelativeLayout>                      
+                      
+## fragment3
+> Java Nya
+
+        package com.example.tugas9;
+        
+        import android.os.Bundle;
+        import android.view.KeyEvent;
+        import android.view.LayoutInflater;
+        import android.view.View;
+        import android.view.ViewGroup;
+        import android.widget.ImageButton;
+        
+        import androidx.fragment.app.Fragment;
+        
+        import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.YouTubePlayer;
+        import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView;
+        
+        public class ThirdFragment extends Fragment {
+        
+            private static final String YOUTUBE_VIDEO_ID_1 = "I4ldTbNASuE";
+            private static final String YOUTUBE_VIDEO_ID_2 = "b0NS7FP1loU";
+            private static final String YOUTUBE_VIDEO_ID_3 = "oGWAN_WX2MY";
+        
+            private YouTubePlayerView youTubePlayerView;
+            private YouTubePlayer youTubePlayer;
+            private boolean isVideoOpen = false;
+        
+            public ThirdFragment() {
+                // Required empty public constructor
+            }
+        
+            @Override
+            public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                                     Bundle savedInstanceState) {
+                // Inflate the layout for this fragment
+                View view = inflater.inflate(R.layout.fragment_third, container, false);
+        
+                // Initialize YouTube Player View
+                youTubePlayerView = view.findViewById(R.id.youtube_player_view);
+                getLifecycle().addObserver(youTubePlayerView);
+        
+                // Set up ImageButton click listeners
+                ImageButton imageButton1 = view.findViewById(R.id.image1);
+                imageButton1.setOnClickListener(v -> loadVideo(YOUTUBE_VIDEO_ID_1));
+        
+                ImageButton imageButton2 = view.findViewById(R.id.image2);
+                imageButton2.setOnClickListener(v -> loadVideo(YOUTUBE_VIDEO_ID_2));
+        
+                ImageButton imageButton3 = view.findViewById(R.id.image3);
+                imageButton3.setOnClickListener(v -> loadVideo(YOUTUBE_VIDEO_ID_3));
+        
+        
+                // Set up KeyEvent callback for handling back button
+                view.setFocusableInTouchMode(true);
+                view.requestFocus();
+                view.setOnKeyListener((v, keyCode, event) -> {
+                    if (keyCode == KeyEvent.KEYCODE_BACK && event.getAction() == KeyEvent.ACTION_UP) {
+                        // Check if YouTubePlayerView is visible and handle back button
+                        if (isVideoOpen) {
+                            closeVideo();
+                            return true;  // consume the back button event
+                        }
+                    }
+                    return false;  // do not consume the back button event
+                });
+        
+                return view;
+            }
+        
+            private void loadVideo(String videoId) {
+                // Show the YouTubePlayerView
+                youTubePlayerView.setVisibility(View.VISIBLE);
+        
+                // Load and play the YouTube video
+                youTubePlayerView.getYouTubePlayerWhenReady(youTubePlayer -> {
+                    if (youTubePlayer != null) {
+                        youTubePlayer.loadVideo(videoId, 0);
+                        this.youTubePlayer = youTubePlayer;
+                        isVideoOpen = true;
+                    }
+                });
+            }
+        
+            private void closeVideo() {
+                // Hide the YouTubePlayerView
+                youTubePlayerView.setVisibility(View.GONE);
+        
+                // Release resources associated with the YouTubePlayerView
+                if (youTubePlayer != null) {
+                    youTubePlayer.pause();
+                    youTubePlayer.cueVideo("", 0);
+                    isVideoOpen = false;
+                }
+            }
+        }
+
+> XML nya atau activity3 nya
+
+                  <?xml version="1.0" encoding="utf-8"?>
+                  <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      xmlns:tools="http://schemas.android.com/tools"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:background="@color/aqua"
+                      tools:context=".SecondFragment">
+                  
+                      <ImageButton
+                          android:id="@+id/image1"
+                          android:layout_width="150dp"
+                          android:layout_height="145dp"
+                          android:layout_marginTop="8dp"
+                          android:scaleType="centerInside"
+                          android:src="@drawable/romance"
+                          android:background="@color/backgroundfilm"
+                          android:onClick="loadVideo1"
+                          tools:ignore="SpeakableTextPresentCheck" />
+                  
+                      <TextView
+                          android:id="@+id/title1"
+                          android:layout_width="180dp"
+                          android:layout_height="41dp"
+                          android:layout_toRightOf="@id/image1"
+                          android:layout_marginStart="16dp"
+                          android:layout_marginTop="8dp"
+                          android:textSize="18sp"
+                          android:textStyle="bold"
+                          android:text="@string/romance1"
+                          android:textColor="@color/black"/>
+                  
+                      <TextView
+                          android:id="@+id/rating1"
+                          android:layout_toRightOf="@id/image1"
+                          android:layout_width="180dp"
+                          android:layout_height="wrap_content"
+                          android:layout_marginStart="16dp"
+                          android:layout_marginTop="4dp"
+                          android:layout_below="@id/title1"
+                          android:textColor="@color/grey"
+                          android:text="@string/ratingr1"
+                          android:textSize="14sp"
+                          android:textStyle="bold"/>
+                  
+                      <TextView
+                          android:id="@+id/sinopsis1"
+                          android:layout_width="match_parent"
+                          android:layout_height="80dp"
+                          android:layout_below="@id/rating1"
+                          android:layout_marginStart="16dp"
+                          android:layout_marginLeft="14dp"
+                          android:layout_marginTop="5dp"
+                          android:layout_toRightOf="@id/image1"
+                          android:maxLines="4"
+                          android:text="@string/sinopsisr1"
+                          android:textColor="@color/black" />
+                  
+                      <ImageButton
+                          android:id="@+id/image2"
+                          android:layout_width="150dp"
+                          android:layout_height="145dp"
+                          android:layout_marginTop="15dp"
+                          android:layout_below="@+id/image1"
+                          android:scaleType="centerInside"
+                          android:onClick="loadVideo2"
+                          android:background="@color/backgroundfilm"
+                          android:src="@drawable/romance2"
+                          tools:ignore="SpeakableTextPresentCheck" />
+                  
+                      <TextView
+                          android:id="@+id/title2"
+                          android:layout_width="180dp"
+                          android:layout_height="41dp"
+                          android:layout_toRightOf="@id/image2"
+                          android:layout_marginStart="16dp"
+                          android:layout_marginTop="11dp"
+                          android:layout_below="@id/sinopsis1"
+                          android:textSize="18sp"
+                          android:textStyle="bold"
+                          android:text="@string/romance2"
+                          android:textColor="@color/black"/>
+                  
+                      <TextView
+                          android:id="@+id/rating2"
+                          android:layout_toRightOf="@id/image2"
+                          android:layout_width="180dp"
+                          android:layout_height="wrap_content"
+                          android:layout_marginStart="16dp"
+                          android:layout_marginTop="4dp"
+                          android:layout_below="@id/title2"
+                          android:textColor="@color/grey"
+                          android:text="@string/ratingr2"
+                          android:textSize="14sp"
+                          android:textStyle="bold"/>
+                  
+                      <TextView
+                          android:id="@+id/sinopsis2"
+                          android:layout_width="match_parent"
+                          android:layout_height="80dp"
+                          android:layout_below="@id/rating2"
+                          android:layout_marginStart="16dp"
+                          android:layout_marginLeft="14dp"
+                          android:layout_marginTop="5dp"
+                          android:layout_toRightOf="@id/image2"
+                          android:maxLines="4"
+                          android:text="@string/sinopsisr2"
+                          android:textColor="@color/black" />
+                  
+                      <ImageButton
+                          android:id="@+id/image3"
+                          android:layout_width="150dp"
+                          android:layout_height="145dp"
+                          android:layout_marginTop="15dp"
+                          android:layout_below="@+id/image2"
+                          android:scaleType="centerInside"
+                          android:background="@color/backgroundfilm"
+                          android:onClick="loadVideo3"
+                          android:src="@drawable/romance4"
+                          tools:ignore="SpeakableTextPresentCheck" />
+                  
+                      <TextView
+                          android:id="@+id/title3"
+                          android:layout_width="180dp"
+                          android:layout_height="41dp"
+                          android:layout_toRightOf="@id/image3"
+                          android:layout_marginStart="16dp"
+                          android:layout_marginTop="11dp"
+                          android:layout_below="@id/sinopsis2"
+                          android:textSize="18sp"
+                          android:textStyle="bold"
+                          android:text="@string/romance3"
+                          android:textColor="@color/black"/>
+                  
+                      <TextView
+                          android:id="@+id/rating3"
+                          android:layout_toRightOf="@id/image3"
+                          android:layout_width="180dp"
+                          android:layout_height="wrap_content"
+                          android:layout_marginStart="16dp"
+                          android:layout_marginTop="4dp"
+                          android:layout_below="@id/title3"
+                          android:textColor="@color/grey"
+                          android:text="@string/ratingr3"
+                          android:textSize="14sp"
+                          android:textStyle="bold"/>
+                  
+                      <TextView
+                          android:id="@+id/sinopsis3"
+                          android:layout_width="match_parent"
+                          android:layout_height="80dp"
+                          android:layout_below="@id/rating3"
+                          android:layout_marginStart="16dp"
+                          android:layout_marginLeft="14dp"
+                          android:layout_marginTop="5dp"
+                          android:layout_toRightOf="@id/image3"
+                          android:maxLines="4"
+                          android:text="@string/sinopsisr3"
+                          android:textColor="@color/black" />
+                  
+                  
+                      <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                          android:id="@+id/youtube_player_view"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_centerInParent="true"
+                          android:visibility="gone" />
+                  
+                  </RelativeLayout>
+
+
+
+## hasilrun
+
+
+https://github.com/lampubohlam/UAS_MOBILE_SM3/assets/151606175/d07a5854-0c67-4c47-bac1-41bee69f0ea7
+
+
