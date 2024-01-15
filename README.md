@@ -20,7 +20,7 @@ Dosen : Donny Maulana, S.Kom., M.M.S.I.
 |6|Secondfragment|[Click Here](#secondfragment)|
 |7|Firstfragment|[Click Here](#firstfragment)|
 |8|Fragment3|[Click Here](#fragment3)|
-|8|Hasil Run AKhir|[Click Here](#hasilrun)|
+|8|Hasil Run AKhir|[Click Here](#HasilRun)|
 
 
 
@@ -1425,7 +1425,7 @@ Salin lah link yang ditandai garis biru dibelakang =
     </RelativeLayout>
 
 
-## hasilrun
+## HasilRun
 
 https://github.com/SANEXP04/UAS-MOBLE-1/assets/115678077/c8a18d74-33a5-465e-954a-a3f88e24b206
 
