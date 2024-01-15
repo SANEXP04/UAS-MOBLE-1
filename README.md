@@ -9,6 +9,8 @@ Dosen : Donny Maulana, S.Kom., M.M.S.I.</h3>
 
 <h4>Assalamualaikum Wr.Wb disini saya akan menampilkan hasil akhir project dari semester 1-15 (Project UAS), serta menampilkan codingan yang berfungsi untuk menampilkan Fragment serta menampilkan video yang didalamnya ada kode youtube di dalam Fragment java nya serta memasukkan gambar dengan fungsi imagebutton berikut adalah hasilnya dan juga ada beberapa project sebelumnya</h4>
 
+<h4>Untuk record hasil semua project ada dipaling bawah repositori ini atau bisa langsung klik yang ada didalam daftar isi...Terimakasih</h4>
+
   
 ## DAFTAR ISI <br>
 | No | Description | Link |
