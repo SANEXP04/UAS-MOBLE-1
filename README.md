@@ -13,7 +13,7 @@ Dosen : Donny Maulana, S.Kom., M.M.S.I.
 | No | Description | Link |
 |-----|------|-----|
 |1|Helloworld|[Click Here](#Hello-World)|
-|2|Count|[Click Here](#count)|
+|2|Count|[Click Here](#Count)|
 |3|Sianida|[Click Here](#sianidaproject)|
 |4|twoactivity|[Click Here](#twoactivity)|
 |5|FragmentActivity|[Click Here](#fragment)|
@@ -81,7 +81,7 @@ Dosen : Donny Maulana, S.Kom., M.M.S.I.
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-## count
+## Count
 
 
 <h3> Berikut kodingan project count/bilangan Fibonacci JAVA dan XML nya</h3>
