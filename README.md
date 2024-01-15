@@ -13,7 +13,7 @@ Dosen : Donny Maulana, S.Kom., M.M.S.I.
 | No | Description | Link |
 |-----|------|-----|
 |1|Helloworld|[Click Here](#helloworld)|
-|2|Count|[Click Here](#fibonacci)|
+|2|Count|[Click Here](#count/fibonacci)|
 |3|Sianida|[Click Here](#sianidaproject)|
 |4|twoactivity|[Click Here](#twoactivity)|
 |5|FragmentActivity|[Click Here](#fragment)|
@@ -46,10 +46,10 @@ Dosen : Donny Maulana, S.Kom., M.M.S.I.
 <h2>disini hasil run nya https://github.com/lampubohlam/intent_mobile-V2.git </h2>
                         
 
-## fibonacci
+## count/fibonacci
 
 
-<h3> berikutnya kodingan project count/bilangan Fibonance JAVA dan XML nya nya</h3>
+<h3> berikutnya kodingan project count/bilangan Fibonacci JAVA dan XML nya nya</h3>
 
 ><h3> Java nya</h3>
             package com.example.tugas9;
