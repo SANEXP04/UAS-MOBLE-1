@@ -7,7 +7,7 @@ Matkul : Pemrograman Mobile 1<br>
 Dosen : Donny Maulana, S.Kom., M.M.S.I.</h3>
 
 
-<h3>Assalamualaikum Wr.Wb disini saya akan menampilkan hasil akhir project dari semester 1-15 (Project UAS), serta menampilkan codingan yang berfungsi untuk menampilkan Fragment serta menampilkan video yang didalamnya ada kode youtube di dalam Fragment java nya serta memasukkan gambar dengan fungsi imagebutton berikut adalah hasilnya dan juga ada beberapa project sebelumnya</h3>
+<h4>Assalamualaikum Wr.Wb disini saya akan menampilkan hasil akhir project dari semester 1-15 (Project UAS), serta menampilkan codingan yang berfungsi untuk menampilkan Fragment serta menampilkan video yang didalamnya ada kode youtube di dalam Fragment java nya serta memasukkan gambar dengan fungsi imagebutton berikut adalah hasilnya dan juga ada beberapa project sebelumnya</h4>
 
   
 ## DAFTAR ISI <br>
@@ -497,8 +497,6 @@ Dosen : Donny Maulana, S.Kom., M.M.S.I.</h3>
             app:layout_constraintStart_toStartOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-> <h3>Hasil run Ada Di link berikut https://github.com/lampubohlam/intent_mobile-V2.git </h3>
-
 
 <h2>Lalu Masuk ke Fragment</h2>
 
@@ -627,6 +625,12 @@ Dosen : Donny Maulana, S.Kom., M.M.S.I.</h3>
     </LinearLayout>
                   
 ## FirstFragment
+
+carilah video dari youtube dan salin pada link dibelakangnya contoh dalam gambar dibawah ini
+
+![image](https://github.com/SANEXP04/UAS-MOBLE-1/assets/115678077/47e431ba-5930-4eda-b126-7474ca967964)
+
+Salin lah link yang ditandai garis biru dibelakang tanda "=" dan masukkan kedalam kode yang ada di public class java
 
 > <h3>Java FirstFragtment</h3>
                    
@@ -890,11 +894,6 @@ Dosen : Donny Maulana, S.Kom., M.M.S.I.</h3>
 
 
 ## SecondFragment
-
-carilah video dari youtube dan salin pada link dibelakanngnya contoh dalam gambar ini
- ![image](https://github.com/lampubohlam/UAS_MOBILE_SM3/assets/116137169/5629d0ed-38ab-4d4b-8cb3-445ce2cb5fed)
-
-Salin lah link yang ditandai garis biru dibelakang =
 
 > <h3>Java SecondFragment</h3>
 
@@ -1424,4 +1423,4 @@ Salin lah link yang ditandai garis biru dibelakang =
 
 https://github.com/SANEXP04/UAS-MOBLE-1/assets/115678077/c8a18d74-33a5-465e-954a-a3f88e24b206
 
-Baik mungkin hanya itu saja hasil dari pengerjaan aplikasi yang telah saya buat selama perkuliahan, dan saya sangat berterimakasih kepada Pak Donny selaku dosen Pemrograman Mobile yang selalu sabar dalam memberikan materi, mohon maaf apabila ada kesalahan kata, sekian dan Wassalamualaikum wr.wb.
+<h3>Baik mungkin hanya itu saja hasil dari pengerjaan aplikasi yang telah saya buat selama perkuliahan, dan saya sangat berterimakasih kepada Pak Donny selaku dosen Pemrograman Mobile yang selalu sabar dalam memberikan materi, mohon maaf apabila ada kesalahan kata, sekian dan Wassalamualaikum wr.wb.</h3>
