@@ -41,8 +41,7 @@ Dosen : Donny Maulana, S.Kom., M.M.S.I.</h3>
             setContentView(R.layout.activity_hello);
         }
     }
-
-<h2>disini hasil run nya https://github.com/lampubohlam/intent_mobile-V2.git </h2>
+         
 
 > <h3>Layout Hello World</h3>
 
@@ -193,7 +192,6 @@ Dosen : Donny Maulana, S.Kom., M.M.S.I.</h3>
             tools:ignore="RtlCompat" />
     
     </androidx.constraintlayout.widget.ConstraintLayout>
-> <h3> Hasil Run di link https://github.com/lampubohlam/Bilangan-fibonance_UTS.git </h3>
 
 
 ## Sianida-Project
@@ -265,7 +263,6 @@ Dosen : Donny Maulana, S.Kom., M.M.S.I.</h3>
             </LinearLayout>
         </ScrollView>
     </RelativeLayout>
- > hasil run ada di link berikut : https://github.com/lampubohlam/intent_mobile-V2.git
 
 ## Twoactivity
 
