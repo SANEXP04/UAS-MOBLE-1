@@ -1,12 +1,13 @@
  # UAS PEMROGRAMAN MOBILE 1
 
-Nama: Ihsan Hadimulya<br>
+<h3>Nama: Ihsan Hadimulya<br>
 Kelas : TI.22.A.1<br>
 NIM: 312210047<br>
 Matkul : Pemrograman Mobile 1<br>
-Dosen : Donny Maulana, S.Kom., M.M.S.I.
+Dosen : Donny Maulana, S.Kom., M.M.S.I.</h3>
 
-<h3>Assalamualaikum Wr.Wb disini saya akan menampilkan hasil akhir project atau Project UAS ,serta menampilkan codingan yang berfungsi untuk menampilkan Fragment serta menammpilkan video yang didalamnya ada kode youtube di dalam Fragment java nya serta memasukan gambar dengan fungsi imagebutton berikut adalah hasilnya dan juga ada beberapa project sebelumnnya</h3>
+
+<h3>Assalamualaikum Wr.Wb disini saya akan menampilkan hasil akhir project dari semester 1-15 (Project UAS), serta menampilkan codingan yang berfungsi untuk menampilkan Fragment serta menampilkan video yang didalamnya ada kode youtube di dalam Fragment java nya serta memasukkan gambar dengan fungsi imagebutton berikut adalah hasilnya dan juga ada beberapa project sebelumnya</h3>
 
   
 ## DAFTAR ISI <br>
@@ -21,8 +22,6 @@ Dosen : Donny Maulana, S.Kom., M.M.S.I.
 |7|Firstfragment|[Click Here](#FirstFragment)|
 |8|Fragment3|[Click Here](#Fragment3)|
 |8|Hasil Run AKhir|[Click Here](#Hasil-Run-Semua-Project)|
-
-
 
 
 ## Hello-World
@@ -82,7 +81,6 @@ Dosen : Donny Maulana, S.Kom., M.M.S.I.
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 ## Count
-
 
 <h3> Berikut kodingan project count/bilangan Fibonacci JAVA dan XML nya</h3>
 
