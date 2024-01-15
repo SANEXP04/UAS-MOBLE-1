@@ -81,7 +81,7 @@ Dosen : Donny Maulana, S.Kom., M.M.S.I.</h3>
 
 ## Count
 
-<h3> Berikut kodingan project count/bilangan Fibonacci JAVA dan XML nya</h3>
+<h3> Berikut kodingan project count/bilangan Fibonacci JAVA dan Layout nya</h3>
 
 > <h3> Java Count/Fibonacci</h3>
     package com.intent;
@@ -1424,3 +1424,4 @@ Salin lah link yang ditandai garis biru dibelakang =
 
 https://github.com/SANEXP04/UAS-MOBLE-1/assets/115678077/c8a18d74-33a5-465e-954a-a3f88e24b206
 
+Baik mungkin hanya itu saja hasil dari pengerjaan aplikasi yang telah saya buat selama perkuliahan, dan saya sangat berterimakasih kepada Pak Donny selaku dosen Pemrograman Mobile yang selalu sabar dalam memberikan materi, mohon maaf apabila ada kesalahan kata, sekian dan Wassalamualaikum wr.wb.
