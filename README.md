@@ -12,7 +12,7 @@ Dosen : Donny Maulana, S.Kom., M.M.S.I.
 ## DAFTAR ISI <br>
 | No | Description | Link |
 |-----|------|-----|
-|1|Helloworld|[Click Here](#helloword)|
+|1|Helloworld|[Click Here](#helloworld)|
 |2|Count|[Click Here](#fibonance)|
 |3|Sianida|[Click Here](#sianidaproject)|
 |4|twoactivity|[Click Here](#twoactivity)|
@@ -25,7 +25,7 @@ Dosen : Donny Maulana, S.Kom., M.M.S.I.
 
 
 
-## helloword
+## helloworld
 
 
 > Berikut kodingan java Hello World
