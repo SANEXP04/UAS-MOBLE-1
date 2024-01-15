@@ -14,12 +14,12 @@ Dosen : Donny Maulana, S.Kom., M.M.S.I.
 |-----|------|-----|
 |1|Helloworld|[Click Here](#Hello-World)|
 |2|Count|[Click Here](#Count)|
-|3|Sianida|[Click Here](#sianidaproject)|
-|4|twoactivity|[Click Here](#twoactivity)|
-|5|FragmentActivity|[Click Here](#fragment)|
-|6|Secondfragment|[Click Here](#secondfragment)|
-|7|Firstfragment|[Click Here](#firstfragment)|
-|8|Fragment3|[Click Here](#fragment3)|
+|3|Sianida|[Click Here](#Sianida-Project)|
+|4|twoactivity|[Click Here](#Twoactivity)|
+|5|FragmentActivity|[Click Here](#Fragment)|
+|6|Secondfragment|[Click Here](#SecondFragment)|
+|7|Firstfragment|[Click Here](#FirstFragment)|
+|8|Fragment3|[Click Here](#Fragment3)|
 |8|Hasil Run AKhir|[Click Here](#Hasil-Run-Semua-Project)|
 
 
@@ -28,7 +28,7 @@ Dosen : Donny Maulana, S.Kom., M.M.S.I.
 ## Hello-World
 
 
-><h3> Java Hello World</h3>
+> <h3>Java Hello World</h3>
 
     package com.intent;
     
@@ -45,7 +45,7 @@ Dosen : Donny Maulana, S.Kom., M.M.S.I.
 
 <h2>disini hasil run nya https://github.com/lampubohlam/intent_mobile-V2.git </h2>
 
-><h3> XML Hello World</h3>
+> <h3>Layout Hello World</h3>
 
     <?xml version="1.0" encoding="utf-8"?>
     <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -86,7 +86,7 @@ Dosen : Donny Maulana, S.Kom., M.M.S.I.
 
 <h3> Berikut kodingan project count/bilangan Fibonacci JAVA dan XML nya</h3>
 
-><h3> Java Count/Fibonacci</h3>
+> <h3> Java Count/Fibonacci</h3>
     package com.intent;
 
     import android.annotation.SuppressLint;
@@ -126,7 +126,7 @@ Dosen : Donny Maulana, S.Kom., M.M.S.I.
     }
 
 
-  > <h3>XML Count/Fibonacci</h3>
+  > <h3>Layout Count/Fibonacci</h3>
 
     <?xml version="1.0" encoding="utf-8"?>
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -198,7 +198,7 @@ Dosen : Donny Maulana, S.Kom., M.M.S.I.
 > <h3> Hasil Run di link https://github.com/lampubohlam/Bilangan-fibonance_UTS.git </h3>
 
 
-## sianida project
+## Sianida-Project
 
 > <h3>Java Sianida</h3>
 
@@ -215,7 +215,7 @@ Dosen : Donny Maulana, S.Kom., M.M.S.I.
     }
 
 
-> <h3>XML Sianida</h3>
+> <h3>Layout Sianida</h3>
           
     <?xml version="1.0" encoding="utf-8"?>
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -269,7 +269,7 @@ Dosen : Donny Maulana, S.Kom., M.M.S.I.
     </RelativeLayout>
  > hasil run ada di link berikut : https://github.com/lampubohlam/intent_mobile-V2.git
 
-## twoactivity
+## Twoactivity
 
 > <h3>Java Twoactivity</h3>
 
@@ -505,16 +505,16 @@ Dosen : Donny Maulana, S.Kom., M.M.S.I.
 > <h3>Hasil run Ada Di link berikut https://github.com/lampubohlam/intent_mobile-V2.git </h3>
 
 
-<h2> Masuk ke Fragment</h2>
+<h2>Lalu Masuk ke Fragment</h2>
 
 > <h3>Langkah pertama tambahkan kode berikut di build.gradle.kts(Modul:app)</h3>
 
     implementation("androidx.fragment:fragment:$fragment_version")
     implementation("com.pierfrancescosoffritti.androidyoutubeplayer:core:11.0.1")
 
-<h3>Lalu lanjut ke tahap selanjutnya membuat Fragment Atau tampilan depan nya silahkan ikuti langkah semua dibawah dengan membuat JAVA dan FIle XML nya dan jangn lupa masukan src Image nya </h3>
+<h3>Lalu lanjut ke tahap selanjutnya membuat Fragment Atau tampilan depan nya silahkan ikuti langkah semua dibawah dengan membuat JAVA dan FIle XML nya dan jangan lupa masukan src Image nya </h3>
 
-## fragment
+## Fragment
 
 > <h3>Java FragmentActivity</h3>
 
@@ -631,7 +631,7 @@ Dosen : Donny Maulana, S.Kom., M.M.S.I.
     
     </LinearLayout>
                   
-## firstfragment
+## FirstFragment
 
 > <h3>Java FirstFragtment</h3>
                    
@@ -894,7 +894,7 @@ Dosen : Donny Maulana, S.Kom., M.M.S.I.
     </RelativeLayout>                      
 
 
-## secondfragment
+## SecondFragment
 
 carilah video dari youtube dan salin pada link dibelakanngnya contoh dalam gambar ini
  ![image](https://github.com/lampubohlam/UAS_MOBILE_SM3/assets/116137169/5629d0ed-38ab-4d4b-8cb3-445ce2cb5fed)
@@ -1162,7 +1162,7 @@ Salin lah link yang ditandai garis biru dibelakang =
     </RelativeLayout>
 
                       
-## fragment3
+## Fragment3
 
 > <h3>Java ThirdFragment</h3>
 
