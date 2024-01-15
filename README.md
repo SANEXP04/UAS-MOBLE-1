@@ -25,7 +25,7 @@ Dosen : Donny Maulana, S.Kom., M.M.S.I.
 
 
 
-## helloworld
+## helloword
 
 
 > Berikut kodingan java Hello World
